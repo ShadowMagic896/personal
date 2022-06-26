@@ -1,0 +1,59 @@
+body {
+    background: content-box linear-gradient(black, rgb(1, 68, 68), black);;
+}
+
+div.content {
+    background-color:rgb(22, 22, 22);
+    border-color: black;
+    border-width: 10px;
+    border-radius: 15px;
+    border-style: inset;
+    
+    color:whitesmoke; /* Text color */
+    text-align: center;
+    text-rendering: geometricPrecision;
+}
+
+header  {
+    font-family:'Times New Roman', Times, serif
+}
+
+img.icon, table.skills {
+    border-color: black;
+    border-style: inset;
+    border-collapse: separate;
+
+    box-shadow: 5px 5px black;
+}
+
+img.icon {
+    border-width: 10px;
+    border-radius: 15px;
+}
+
+table.skills {
+    border-width: 7.5px;
+    border-radius: 10px;
+    border-spacing: 5px;
+}
+
+a {
+    color: rgb(1, 68, 68);
+    font-style: italic;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+}
+
+span.contact {
+    font-size: 125%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+div.bio {
+    font-family:'Courier New', Courier, monospace
+}
+
+div.skills {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
